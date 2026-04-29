@@ -35,7 +35,7 @@ df['date'] = pd.to_datetime(df['date'])
 df['full_date'] = df['date']
 
 # ====================== SIDEBAR FILTERS ======================
-st.sidebar.header("🔍 Filters")
+st.sidebar.header("Filters")
 
 selected_branches = st.sidebar.multiselect(
     "Select Branches",
@@ -78,10 +78,10 @@ col4.metric("Avg Gross Margin", f"{avg_margin:.1f}%")
 
 # ====================== TABS ======================
 tab1, tab2, tab3, tab4 = st.tabs([
-    "📈 Sales Overview", 
-    "🏬 Branch Performance", 
-    "📦 Product Analysis", 
-    "👥 Customer Insights"
+    "Sales Overview", 
+    "Branch Performance", 
+    "Product Analysis", 
+    "Customer Insights"
 ])
 
 with tab1:
@@ -116,4 +116,3 @@ with tab4:
 st.markdown("---")
 st.caption("Developed by **Aklilu Abera** | Data Engineer")
 st.caption("Queens Supermarket Sales ETL Pipeline | Midroc Commerce Portfolio Project")
-st.caption(f"Last Updated: {datetime.now().strftime('%B %d, %Y')}")
