@@ -1,4 +1,6 @@
 # Queens Supermarket Sales Analytics Pipeline
+[![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen)]()
+
 
 End-to-End ETL Pipeline and Star-Schema Data Warehouse for Queens Supermarket Sales Analytics
 
