@@ -1,10 +1,4 @@
-pandas
-numpy
-sqlalchemy
-pymysql
-python-dotenv
 streamlit
+pandas
 plotly
-matplotlib
-seaborn
 pyarrow
