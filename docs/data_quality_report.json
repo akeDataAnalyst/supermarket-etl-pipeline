@@ -1,0 +1,12 @@
+{
+    "report_date": "2026-04-29 08:23:52",
+    "project": "Queens Supermarket Sales ETL",
+    "total_records": 50000,
+    "quality_score": "High",
+    "issues_found": {
+        "null_values": 0,
+        "invalid_records": 0,
+        "duplicates": 0
+    },
+    "status": "PASSED"
+}

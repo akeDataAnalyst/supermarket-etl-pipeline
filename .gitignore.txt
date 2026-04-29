@@ -1,0 +1,32 @@
+# Python & Virtual Environment
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data - Only commit raw data
+data/bronze/
+data/silver/
+data/gold/
+!data/raw/
+
+# Logs and temporary files
+*.log
+logs/
+
+# Streamlit & IDE
+.streamlit/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env

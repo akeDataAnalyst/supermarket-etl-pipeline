@@ -1,0 +1,1 @@
+SELECT * FROM queens_supermarket_dw.fact_sales;

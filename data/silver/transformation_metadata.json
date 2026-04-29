@@ -1,0 +1,27 @@
+{
+    "transformation_date": "2026-04-28 12:16:49",
+    "source_layer": "bronze",
+    "target_layer": "silver",
+    "records_processed": 50000,
+    "new_features_added": [
+        "year",
+        "month",
+        "day",
+        "weekday",
+        "weekday_name",
+        "is_weekend",
+        "time_of_day",
+        "subtotal",
+        "high_value_transaction",
+        "low_margin_flag",
+        "customer_segment",
+        "branch_performance"
+    ],
+    "transformations_applied": [
+        "Data cleaning & standardization",
+        "Time dimension creation",
+        "Business metric calculations",
+        "Customer segmentation",
+        "Data quality validation"
+    ]
+}

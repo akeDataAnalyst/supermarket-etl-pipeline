@@ -1,0 +1,29 @@
+{
+    "ingestion_date": "2026-04-28 11:39:42",
+    "source_file": "queens_supermarket_sales_raw.csv",
+    "target_layer": "bronze",
+    "records_ingested": 50000,
+    "columns": [
+        "invoice_id",
+        "branch_id",
+        "branch_name",
+        "city",
+        "customer_type",
+        "gender",
+        "product_line",
+        "unit_price",
+        "quantity",
+        "tax_15",
+        "total",
+        "date",
+        "time",
+        "payment",
+        "cogs",
+        "gross_income",
+        "gross_margin_percentage",
+        "rating",
+        "month"
+    ],
+    "file_format": "parquet",
+    "compression": "snappy"
+}
